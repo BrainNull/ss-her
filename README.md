@@ -3,7 +3,7 @@
 
 Click the button below to deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Snawoot/shadowsocks-heroku/tree/main)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/BrainNull/ss-her/tree/main)
 
 ## 0. Attention
 
@@ -43,9 +43,9 @@ Port: 443
 Password: The password filled in during deployment
 Encry Method: chacha20-ietf-poly1305 (or other methods you fill in)
 Plugin: v2ray
-Plugin Transport mode: websocket-tls
-Hostname: Same as Server
-Path: "/" + value of V2_Path in app Config Vars
+Plugin Transport mode=websocket;tls
+Hostname=Same as Server
+Path="/" + value of V2_Path in app Config Vars
 ```
 
 Those without a client can also download from here (Android):
